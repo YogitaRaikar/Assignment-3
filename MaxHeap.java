@@ -48,9 +48,10 @@ public class MaxHeap {
 		int i,j,n;
 		
 		n=args[0].length();
-		Vector<Character> h=new Vector<Character>();
+		Vector<Character> h=new Vector<Character>();      //"h" to build max-heap 
 		h.add(0,null);
 		
+		//stores each letter of first name in character vector "h"
 		for(i=1;i<=n;i++)
 			h.add(args[0].charAt(i-1));              
 		
