@@ -1,0 +1,11 @@
+SAMPLE INPUT
+yogita swetha dekshitha
+
+SAMPLE OUTPUT
+Max heap is:
+y w s t t d k s t o h a a e g i h e i h a
+
+
+TIME COMPLEXITY
+
+T(n)=O(nlog n)
