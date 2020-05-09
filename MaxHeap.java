@@ -57,6 +57,12 @@ public class MaxHeap {
 		
 		//builds maxheap for first name entered
 		h=maxheap(h,n);
+		System.out.println("Max heap for first name is:");
+		for(i=1;i<=n;i++)
+		{
+			System.out.print(h.get(i)+" ");
+		}
+		System.out.println();
 		
 		//builds maxheap for remaining names by taking each letter from the name 
 		for(i=1;i<args.length;i++){
