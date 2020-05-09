@@ -74,7 +74,7 @@ public class MaxHeap {
 		}
 		
 		//displays final built maxheap of all the entered names
-		System.out.println("Max heap is:");
+		System.out.println("Final Max heap is:");
 		for(i=1;i<=n;i++)
 		{
 			System.out.print(h.get(i)+" ");
